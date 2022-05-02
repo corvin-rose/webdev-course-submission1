@@ -53,5 +53,6 @@ button {
     color: #fff;
     background: var(--color-primary);
     font-weight: 600;
+    font-size: 16px;
     cursor: pointer;
 }

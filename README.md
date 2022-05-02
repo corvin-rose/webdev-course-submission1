@@ -8,10 +8,10 @@ This is a submission for my Web Developement Course at HTW-Berlin.
 <br/>
 
 ## Implemented Features:
-- [ ] Admin Login
-- [ ] Staff Login
-- [ ] Credential Validation
-- [ ] Login Attempts
+- [x] Admin Login
+- [x] Staff Login
+- [x] Credential Validation
+- [x] Login Attempts
 - [ ] Actions (Add, Update, Delete)
 - [ ] Admin Content Page
-- [ ] Staff Content Page
+- [x] Staff Content Page

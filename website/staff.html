@@ -19,24 +19,30 @@
                     <li class="disabled">Schedule</li>
                     <!-- End decoration -->
 
-                    <a href="login.html"><li>Login</li></a>
+                    <a href="login.html"><li>Logout</li></a>
                 </ul>
             </nav>
         </div>
-        <div class="content">
+        <div id="overview" class="content">
             <h1>Course Overview</h1>
             <div id="courses" class="courses">
-                <div class="course">
-                    <span class="title">Mathematics</span>
-                </div>
-                <div class="course">
-                    <span class="title">Mathematics</span>
-                </div>
-                <div class="course">
-                    <span class="title">Mathematics</span>
-                </div>
+                <template id="course-template">
+                    <a href="#members">
+                        <div class="course">
+                            <span class="title">[TITLE]</span>
+                        </div>
+                    </a>
+                </template>
             </div>
         </div>
+
+        <div id="members" class="content">
+            <h1>Course Members</h1>
+            <p>Not available yet... Backend is needed to load Members from certain courses!</p>
+            <a href="#overview">Go back</a>
+        </div>
     </div>
+
+    <script src="js/staff.js"></script>
 </body>
 </html>
