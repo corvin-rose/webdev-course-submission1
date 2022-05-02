@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --background: linear-gradient(135deg, rgb(246, 248, 249) 0%, rgb(231, 237, 241) 100%);
+    --text-color: #33343d;
+    --text-disabled-color: #afb1c7;
+    --color-primary: #44b9dd;
+    --color-primary-hover: #35b1d6;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+input[type='text'], input[type='password'] {
+    font-size: 18px;
+    border: 1px solid var(--text-disabled-color);
+    padding: 10px 20px;
+}
+input[type='text']:focus, input[type='password']:focus {
+    outline: none;
+    border: 1px solid var(--color-primary);
+}
+
+button {
+    padding: 15px 30px;
+    border: none;
+    color: #fff;
+    background: var(--color-primary);
+    font-weight: 600;
+    cursor: pointer;
+}
