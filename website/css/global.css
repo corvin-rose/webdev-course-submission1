@@ -10,13 +10,32 @@
     --text-disabled-color: #afb1c7;
     --color-primary: #44b9dd;
     --color-primary-hover: #35b1d6;
+    --color-error: #c91f37
 }
 
 html, body {
     margin: 0;
     padding: 0;
-    min-height: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
 }
+
+.container {
+    width: min(90%, 70em);
+    margin: 0 auto;
+}
+
+p, span, h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+}
+p, span, a {
+    font-size: 18px;
+}
+h1 {
+    font-size: 35px;
+}
+
+
 
 input[type='text'], input[type='password'] {
     font-size: 18px;
