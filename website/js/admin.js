@@ -93,7 +93,6 @@ function removeStudent() {
 function addStudent() {
     let temp = document.getElementById('add-row-template').content.querySelector('tr');
     let addRow = document.importNode(temp, true);
-    addRow.innerHTML = addRow.innerHTML.replace('[ID]', );
 
     if (!currentAddRow) {
         currentAddRow = addRow;
