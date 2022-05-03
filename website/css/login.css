@@ -37,12 +37,7 @@ body.login {
 .login-form .inputs input {
     margin-bottom: 30px;
 }
-.login-form .inputs input.error {
-    border: 1px solid var(--color-error);
-}
 .login-form .inputs button {
+    padding: 15px 30px;
     margin-top: 20px;
-}
-.login-form .inputs button:hover {
-    background: var(--color-primary-hover);
 }
